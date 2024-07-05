@@ -1,0 +1,150 @@
+:root {
+    --red: red;
+    --blue: blue;
+    --green: green;
+    --pink: pink;
+    --yellow: rgb(230, 230, 19);
+    --white: #fff;
+    --black: #000;
+    --orange: orange;
+    --medium-black: #413f3f;
+    --gray: rgb(92, 84, 84);
+    --red-pink: #fa2a55;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--black);
+}
+
+.logo {
+    width: 200px;
+}
+
+.main-container {
+    background: var(--medium-black);
+}
+
+.main-container-left {
+    width: 40%;
+}
+
+.main-container-left img {
+    border-radius: 5px 0 0 5px;
+}
+
+.main-container-right {
+    padding: 5px 8px 5px 0;
+}
+
+.star {
+    width: 20px;
+}
+
+.game-title {
+    color: var(--white);
+    font-size: 15px;
+}
+
+.button-container {
+    background: var(--gray);
+}
+
+.button-item button {
+    height: 30px;
+    color: var(--white);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.yellow {
+    background: rgb(230, 230, 19);
+}
+
+.white {
+    background: var(--white);
+}
+
+.pink {
+    background: var(--pink);
+}
+
+.blue {
+    background: var(--blue);
+}
+
+.red {
+    background: var(--red);
+}
+
+.green {
+    background: var(--green);
+}
+.red-pink{
+    background: var(--red-pink);
+}
+.bet-container {
+    background: var(--gray);
+}
+
+.bet {
+    border: 3px solid var(--orange);
+    padding: 1px;
+    border-radius: 3px;
+}
+
+.bet button {
+    width: 13px;
+    height: 13px;
+}
+
+.play-the-game {
+    background: var(--gray);
+}
+
+.play-the-game .play {
+    width: 28px;
+}
+
+.play-the-game h5 {
+    color: var(--white);
+    font-size: 14px;
+}
+
+.container-footer button {
+    padding: 3px 20px;
+    border-radius: 3px;
+    border: none;
+    color: var(--white);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000;
+}
+
+.container-footer p {
+    color: var(--white);
+}
+
+.users img {
+    width: 25px;
+}
+
+.progress-container {
+    width: 100%;
+    background-color: #f1f1f1;
+    margin: 0 3px;
+  }
+  
+.progress-bar {
+    width: 0%;
+    height: 8px;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    font-size:11px;
+    transition: width 1s linear;
+    background-color: #4caf50;
+}
+  
