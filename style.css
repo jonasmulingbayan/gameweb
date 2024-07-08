@@ -30,9 +30,6 @@ body {
     background: var(--medium-black);
 }
 
-.main-container-left {
-    width: 40%;
-}
 
 .main-container-left img {
     border-radius: 5px 0 0 5px;
@@ -56,7 +53,8 @@ body {
 }
 
 .button-item button {
-    height: 30px;
+    height: 100%;
+    font-size:13px;
     color: var(--white);
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
@@ -107,7 +105,7 @@ body {
 }
 
 .play-the-game .play {
-    width: 28px;
+    width: 17px;
 }
 
 .play-the-game h5 {
@@ -120,11 +118,13 @@ body {
     border-radius: 3px;
     border: none;
     color: var(--white);
+    font-size:13px;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000;
 }
 
 .container-footer p {
     color: var(--white);
+    font-size:13px;
 }
 
 .users img {
@@ -146,5 +146,75 @@ body {
     font-size:11px;
     transition: width 1s linear;
     background-color: #4caf50;
+}
+
+@media(max-width:420px){
+    .logo {
+        width: 150px;
+    }
+    
+    .star {
+        width: 15px;
+    }
+    
+    .game-title {
+        font-size: 13px;
+    }
+    
+    .button-item button {
+        font-size:10px;
+    }
+    
+    .bet button {
+        width: 10px;
+        height: 10px;
+    }
+    
+    .play-the-game .play {
+        width: 21px;
+    }
+    
+    .play-the-game h5 {
+        font-size: 12px;
+    }
+    
+    .container-footer button {
+        padding: 3px 13px;
+        font-size:11px;
+    }
+    
+    .container-footer p {
+        font-size:11px;
+    }
+    
+    .users img {
+        width: 20px;
+    } 
+}
+
+@media(max-width:380px){
+    .button-item button {
+        font-size:9px;
+    }
+
+    .bet{
+        padding: 0.5px;
+    }
+    
+    .bet button {
+        width: 8px;
+        height: 8px;
+    }
+    .container-footer button {
+        font-size:10px;
+    }
+    
+    .container-footer p {
+        font-size:10px;
+    }
+    
+    .users img {
+        width: 18px;
+    } 
 }
   
